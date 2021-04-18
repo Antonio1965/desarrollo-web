@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: italic;
+  font-weight: bold;
+}
+div {
+  text-align: center;
+}
+div h1 {
+  font-size: 25px;
+  color: crimson;
+  text-align: center;
+  padding: 15px 10px;
+}
+div img {
+  border-radius: 50px;
+  margin: auto;
+  display: block;
+}
+div p {
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+strong {
+  color: crimson;
+}

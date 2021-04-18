@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: italic;
+  font-weight: bold;
+}
+/* header cabecera*/
+header {
+  padding: 5px 2px;
+  background-color: cornflowerblue;
+}
+header nav img {
+  border-radius: 10px;
+}
+a {
+  text-decoration: none;
+}
+a:hover{
+  color:crimson;
+}
+/* barra de navegacion */
+nav ul {
+  float: right;
+  padding-top: 15px;
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+  padding: 5px 15px;
+}
+
+/* pagina ppal main */
+main div img {
+  vertical-align: bottom;
+}
+main h1 {
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+}
+main div iframe {
+  width: 45%;
+  border-radius: 10px;
+  margin: auto;
+  display: block;
+}
+main div img {
+  border-radius: 50px;
+  margin: auto;
+  display: block;
+}
+main div p {
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+main div h3,
+h4 {
+  padding: 10px;
+  font-size: 25px;
+  text-align: center;
+}
+/* pie de pagina */
+footer {
+  background-color: gray;
+}
+footer div h2 {
+  color: honeydew;
+  font-size: 20px;
+  text-align: center;
+}
+footer div ul {
+  text-align: center;
+}
+footer div ul li {
+  display: inline-block;
+  padding: 15px 15px;
+  text-align: center;
+}
+footer div ul li a {
+  color: honeydew;
+}
+footer p {
+  color: lavenderblush;
+  font-size: 18px;
+  text-align: center;
+}

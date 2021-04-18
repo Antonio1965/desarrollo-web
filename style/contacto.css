@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: italic;
+  font-weight: bold;
+}
+.contactos {
+  text-align: center;
+  padding: 30px;
+}
+div h2 {
+  padding: 20px;
+}
+form {
+  padding: auto;
+}
+form fieldset {
+  border-radius: 30px;
+  background-color: rgba(167, 133, 155, 0.582);
+  text-align: center;
+}
+form fieldset legend {
+  font-size: 20px;
+  padding: 10px;
+}
+input {
+  font-size: 20px;
+  border-radius: 5px;
+}
+textarea {
+  font-size: 15px;
+  border-radius: 10px;
+}
+button {
+  padding: 10px;
+  border-radius: 5px;
+}
+label {
+  font-size: 20px;
+}
+#terminos {
+  padding: 20px;
+  font-size: 20px;
+}

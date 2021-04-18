@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: italic;
+  font-weight: bold;
+}
+table {
+  text-align: center;
+  width: 90%;
+  height: 100%;
+}
+
+table h3 {
+  padding: 20px;
+  font-size: 35px;
+}
+table td img {
+  border-radius: 20px;
+  max-width: 200px;
+  max-height: 200px;
+}
+table td iframe {
+  border-radius: 20px;
+  max-width: 200px;
+  max-height: 200px;
+}
+table tr th {
+  padding: 20px;
+}
