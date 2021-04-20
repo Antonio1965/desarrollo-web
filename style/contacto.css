@@ -5,6 +5,30 @@
   font-style: italic;
   font-weight: bold;
 }
+/* header cabecera*/
+header {
+  padding: 5px 2px;
+  background-color: cornflowerblue;
+}
+header nav img {
+  border-radius: 10px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: crimson;
+}
+/* barra de navegacion */
+nav ul {
+  float: right;
+  padding-top: 15px;
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+  padding: 5px 15px;
+}
 .contactos {
   text-align: center;
   padding: 30px;
@@ -12,6 +36,7 @@
 div h2 {
   padding: 20px;
 }
+/*---- pagina de formularios----*/
 form {
   padding: auto;
 }
@@ -42,4 +67,29 @@ label {
 #terminos {
   padding: 20px;
   font-size: 20px;
+}
+/* pie de pagina */
+footer {
+  background-color: gray;
+}
+footer div h2 {
+  color: honeydew;
+  font-size: 20px;
+  text-align: center;
+}
+footer div ul {
+  text-align: center;
+}
+footer div ul li {
+  display: inline-block;
+  padding: 15px 15px;
+  text-align: center;
+}
+footer div ul li a {
+  color: honeydew;
+}
+footer p {
+  color: lavenderblush;
+  font-size: 18px;
+  text-align: center;
 }

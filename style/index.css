@@ -16,8 +16,8 @@ header nav img {
 a {
   text-decoration: none;
 }
-a:hover{
-  color:crimson;
+a:hover {
+  color: crimson;
 }
 /* barra de navegacion */
 nav ul {
@@ -30,7 +30,7 @@ nav ul li {
   padding: 5px 15px;
 }
 
-/* pagina ppal main */
+/* ---- pagina ppal main ----*/
 main div img {
   vertical-align: bottom;
 }
