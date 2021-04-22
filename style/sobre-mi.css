@@ -5,6 +5,7 @@
   font-style: italic;
   font-weight: bold;
 }
+
 /*---- cabecera de pagina---*/
 header {
   padding: 5px 2px;
@@ -30,6 +31,9 @@ nav ul li {
   padding: 5px 15px;
 }
 /*---- pagina principal ----*/
+.acercademi {
+  height: 100vh;
+}
 div {
   text-align: center;
 }
