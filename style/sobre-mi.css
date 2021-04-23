@@ -37,6 +37,9 @@ nav img {
 .acercademi {
   height: 100vh;
 }
+.acercademi img {
+  max-width: 200px;
+}
 div {
   text-align: center;
 }
