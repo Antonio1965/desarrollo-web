@@ -29,6 +29,9 @@ nav ul li {
   display: inline-block;
   padding: 5px 15px;
 }
+nav img {
+  max-width: 80px;
+}
 /*---- pagina de tablas----*/
 
 table {
