@@ -5,6 +5,11 @@
   font-style: italic;
   font-weight: bold;
 }
+body {
+  background-image: url("../images/turqueza1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 /* header cabecera*/
 header {
   padding: 5px 2px;
