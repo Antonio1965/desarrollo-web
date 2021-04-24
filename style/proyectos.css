@@ -1,11 +1,18 @@
+/* -- Reseteo CSS -- */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* --font-style- general-- */
   font-style: italic;
+  /* --font-weight-- */
   font-weight: bold;
+  /* --font-family-- */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 body {
+  /* -- background-image-- */
   background-image: url("../images/turqueza1.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -14,11 +21,14 @@ body {
 header {
   padding: 5px 2px;
   background-color: cornflowerblue;
+  position: sticky;
+  top: 0px;
 }
 header nav img {
   border-radius: 10px;
 }
 a {
+  /* -- text-decoration-none -- */
   text-decoration: none;
 }
 a:hover {
@@ -28,6 +38,7 @@ a:hover {
 nav ul {
   float: right;
   padding-top: 15px;
+  /* -- list-style-type: none --*/
   list-style-type: none;
 }
 nav ul li {
@@ -42,6 +53,7 @@ nav img {
   height: 100vh;
 }
 div {
+  /* -- text-align-center */
   text-align: center;
 }
 table td img {
@@ -64,6 +76,7 @@ table td {
 }
 /* pie de pagina */
 footer {
+  /* --background-color -- */
   background-color: gray;
 }
 footer div h2 {
@@ -72,11 +85,13 @@ footer div h2 {
   text-align: center;
 }
 footer div ul {
+  /* -- text-align-center */
   text-align: center;
 }
 footer div ul li {
   display: inline-block;
   padding: 15px 15px;
+  /* -- text-align-center */
   text-align: center;
 }
 footer div ul li a {
@@ -88,5 +103,5 @@ footer p {
   text-align: center;
 }
 .fab {
-  font-size: 40px;
+  font-size: 35px;
 }
