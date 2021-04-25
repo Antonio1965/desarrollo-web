@@ -19,7 +19,7 @@
 /* header cabecera*/
 /* header cabecera*/
 .header {
-  position: sticky;
+  /* position: sticky; */
   top: 0px;
 }
 .menu {
@@ -62,7 +62,6 @@
   text-align: center;
 }
 .contactos__formulario {
-  /* padding: auto; */
 }
 .contactos__control {
   position: relative;
