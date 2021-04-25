@@ -10,12 +10,13 @@
     -Font-size.
     -Font-family.
     -Text-align.
+    -Border-radius (elipce).
     -Text-decoration.
     -Background-color.
     -Background-image.
     -Background-repeat.
     -Background-attachment.
-    
+
 2.- Otros: adelantos.
     -Se agraga iconos en redes sociales.
     -Se agrega favicons.
