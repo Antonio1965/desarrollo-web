@@ -11,77 +11,86 @@
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-body {
+.body {
   /* -- background-image-- */
   background-image: url("../images/turqueza1.jpg");
   background-attachment: fixed;
 }
 /* header cabecera*/
-header {
-  padding: 5px 2px;
-  background-color: cornflowerblue;
+/* header cabecera*/
+.header {
   position: sticky;
   top: 0px;
 }
-header nav img {
-  border-radius: 10px;
+.menu {
+  /* --background-color -- */
+  background-color: cornflowerblue;
 }
-a {
+.header__titulo {
+  display: inline-block;
+  margin-left: 10px;
+}
+.logo {
+  /* -- Estilo borde -- */
+  border-radius: 10px / 30px;
+  max-width: 80px;
+}
+/* --menu de navegacion */
+.listas {
+  padding-top: 25px;
+  float: right;
+}
+.item {
+  display: inline-block;
+  padding: 15px 15px;
+}
+.item:hover {
+  color: crimson;
+}
+.item__inicio,
+.item__acerca,
+.item__contacto,
+.item__galeria,
+.item__proyectos {
   /* -- text-decoration-none -- */
   text-decoration: none;
 }
-a:hover {
-  color: crimson;
-}
-/* barra de navegacion */
-nav ul {
-  float: right;
-  padding-top: 15px;
-  /* -- list-style-type: none --*/
-  list-style-type: none;
-}
-nav ul li {
-  display: inline-block;
-  padding: 5px 15px;
-}
-nav img {
-  max-width: 80px;
-}
-.contactos {
-  text-align: center;
-  padding: 30px;
-}
-div h2 {
-  padding: 20px;
-}
 /*---- pagina de formularios----*/
-form {
-  padding: auto;
+.contactos {
 }
-form fieldset {
+.contactos__titulo {
+  text-align: center;
+}
+.contactos__formulario {
+  /* padding: auto; */
+}
+.contactos__control {
+  position: relative;
+  margin: auto;
+  width: 500px;
+  text-align: center;
   border-radius: 30px;
   /* --background-color -- */
   background-color: rgba(167, 133, 155, 0.4);
-  text-align: center;
 }
-form fieldset legend {
+.contactos__leyenda {
   font-size: 20px;
   padding: 10px;
 }
-input {
+.contactos__input {
   font-size: 20px;
   border-radius: 5px;
 }
-textarea {
+.contactos__textarea {
   font-size: 15px;
   border-radius: 10px;
 }
-button {
+.contactos__boton {
   margin: 5px;
   padding: 10px;
   border-radius: 5px;
 }
-label {
+.contactos__label {
   font-size: 20px;
 }
 #terminos {
@@ -89,33 +98,33 @@ label {
   font-size: 20px;
 }
 /* pie de pagina */
-footer {
+.footer {
   background-color: gray;
 }
-footer div h2 {
+.footer__contenedor {
+}
+.redes_sociales {
   color: honeydew;
   font-size: 20px;
-  /* -- text-align-center */
   text-align: center;
 }
-footer div ul {
-  /* -- text-align-center */
+.footer__lista {
   text-align: center;
 }
-footer div ul li {
+.footer__item {
   display: inline-block;
   padding: 15px 15px;
   text-align: center;
 }
-footer div ul li a {
-  color: honeydew;
+.fab:hover {
+  color: crimson;
 }
-footer p {
+.fab {
+  color: honeydew;
+  font-size: 35px;
+}
+.footer__text {
   color: lavenderblush;
   font-size: 18px;
   text-align: center;
 }
-.fab {
-  font-size: 35px;
-}
-/*  */

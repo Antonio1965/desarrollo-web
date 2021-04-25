@@ -11,6 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="./style/normalize.css">
   <link rel="stylesheet" href="./style/index.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
     integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
@@ -37,83 +38,87 @@
 
 </head>
 
-<body>
+<body class="body">
   <!-- cabecera de la página -->
-  <header>
-    <nav>
-      <img src="./images/logo.webp" alt="Logo">
+  <header class="header">
+    <nav class="menu">
+      <img class="logo" src="./images/logo.webp" alt="Logo">
+      <h1 class="header__titulo">Porfolio, de TSUTSUMI, José Antonio</h1>
       <!-- listas de enlace de navegacion -->
-      <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="acerca-de-mi.html">Acerca de mi</a></li>
-        <li><a href="proyectos.html">Proyectos</a></li>
-        <li><a href="galeria.html">Galerias de fotos</a></li>
-        <li><a href="contacto.html">Contactos</a></li>
+      <ul class="listas">
+        <li class="item"><a class="item__inicio" href="#">Inicio</a></li>
+        <li class="item"><a class="item__acerca" href="acerca-de-mi.html">Acerca de mi</a></li>
+        <li class="item"><a class="item__proyectos" href="proyectos.html">Proyectos</a></li>
+        <li class="item"><a class="item__galeria" href="galeria.html">Galerias de fotos</a></li>
+        <li class="item"><a class="item__contacto" href="contacto.html">Contactos</a></li>
       </ul>
     </nav>
   </header>
-  <main>
+  <main class="contenedor">
     <!-- página central del web -->
-    <h1>Porfolio Personal de TSUTSUMI, Jose Antonio</h1>
-    <div>
+    <h1 class="titulo">Porfolio Personal de TSUTSUMI, Jose Antonio</h1>
+    <div class="contenedor__uno">
       <!-- se coloca un video presonal, esto a modo de ejemplo -->
-      <iframe src="https://www.youtube.com/embed/KVakLLMBQxg"
+      <iframe class="video1" src="https://www.youtube.com/embed/KVakLLMBQxg"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
-      <p>
+      <p class="contenedor__uno--text">
         Estudiante de CoderHouse, realizando el curso de Desarrollo Web.
       </p>
     </div>
     <br>
-    <div>
-      <iframe src="https://www.youtube.com/embed/pd7JGO2A3so"
+    <div class="contenedor__dos">
+      <iframe class="video2" src="https://www.youtube.com/embed/pd7JGO2A3so"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
-      <h3>Proyecto 1</h3>
-      <h4>Descripción :</h4>
-      <p>El proyecto consiste en realizar un pagina , desarrollo Web utilizando heraamientas como HTML y CSS , practicas
+      <h3 class="proyecto1">Proyecto 1</h3>
+      <h4 class="proyecto1__titulo">Descripción :</h4>
+      <p class="proyecto1__titulo--text">El proyecto consiste en realizar un pagina , desarrollo Web utilizando
+        heraamientas como HTML y CSS , practicas
         realizada en el curso de CoderHouse.</p>
-      <a href="">Enlace al proyecto</a>
+      <a class="enlace" href="">Enlace al proyecto</a>
       <br>
     </div>
-    <div>
-      <iframe src="https://www.youtube.com/embed/ll6xSsbPg3k"
+    <div class="contenedor__tres">
+      <iframe class="video3" src="https://www.youtube.com/embed/ll6xSsbPg3k"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
-      <h3>Proyecto 2</h3>
-      <h4>Descripción :</h4>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus architecto qui cumque. Delectus nemo quaerat
+      <h3 class="proyecto2">Proyecto 2</h3>
+      <h4 class="proyecto2__titulo">Descripción :</h4>
+      <p class="proyecto2__titulo--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus architecto qui
+        cumque. Delectus nemo quaerat
         atque ducimus corporis totam recusandae quis sequi facilis tempore ipsa cum placeat similique, dicta sit
         debitis at et blanditiis alias quas voluptatum iusto accusantium! Eaque?</p>
       <br>
-      <a href="/">Enlace al proyecto</a>
+      <a class="enlace" href="/">Enlace al proyecto</a>
     </div>
-    <div>
-      <img src="./images/imagen3.jpg" style="max-width:500px" loading="lazy" alt="proyecto mobile">
-      <h3>Proyecto 3</h3>
-      <h4>Descripción :</h4>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni voluptatem corporis tenetur dolor maiores
+    <div class="contenedor__cuatro">
+      <img class="imagen1" src="./images/imagen3.jpg" style="max-width:500px" loading="lazy" alt="proyecto mobile">
+      <h3 class="proyecto3">Proyecto 3</h3>
+      <h4 class="proyecto3__titulo">Descripción :</h4>
+      <p class="proyecto3__titulo--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni voluptatem
+        corporis tenetur dolor maiores
         laudantium quis! Ab culpa at minima sed ipsa voluptas dolore minus modi enim, nisi sequi! Numquam quisquam
         amet voluptatum debitis ea asperiores quo quibusdam corporis? Est?</p>
       <br>
-      <a href="#">Enlace al proyecto</a>
+      <a class="enlace" href="#">Enlace al proyecto</a>
     </div>
   </main>
   <br>
   <!-- pie de página -->
-  <footer>
-    <div>
+  <footer class="footer">
+    <div class="footer__contenedor">
       <!-- Redes sociales. -->
-      <h2>Redes Sociales</h2>
-      <ul>
-        <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a></li>
-        <li><a href="https://www.yahoo.com/"><i class="fab fa-yahoo"></i></a></li>
-        <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a></li>
-        <li><a href="https://www.github.com/"><i class="fab fa-github"></i></a></li>
+      <h2 class="redes_sociales">Redes Sociales</h2>
+      <ul class="footer__lista">
+        <li class="footer__item"><a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a></li>
+        <li class="footer__item"><a href="https://www.yahoo.com/"><i class="fab fa-yahoo"></i></a></li>
+        <li class="footer__item"><a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a></li>
+        <li class="footer__item"><a href="https://www.github.com/"><i class="fab fa-github"></i></a></li>
       </ul>
     </div>
     <hr />
-    <p>Todos los derechos reservados - Tsutsumi Jose Antonio- Abril de 2021.</p>
+    <p class="footer__text">Todos los derechos reservados - Tsutsumi Jose Antonio- Abril de 2021.</p>
   </footer>
 </body>
 

@@ -11,7 +11,7 @@
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-body {
+.body {
   /* -- background-image-- */
   background-image: url("../images/turqueza1.jpg");
   background-repeat: no-repeat;
@@ -19,93 +19,102 @@ body {
 }
 
 /*---- cabecera de pagina---*/
-header {
-  padding: 5px 2px;
-  background-color: cornflowerblue;
+/* header cabecera*/
+.header {
   position: sticky;
   top: 0px;
 }
-header nav img {
-  border-radius: 10px;
+.menu {
+  /* --background-color -- */
+  background-color: cornflowerblue;
 }
-a {
+.header__titulo {
+  display: inline-block;
+  margin-left: 10px;
+}
+.logo {
+  /* -- Estilo borde -- */
+  border-radius: 10px / 30px;
+  max-width: 80px;
+}
+/* --menu de navegacion */
+.listas {
+  padding-top: 25px;
+  float: right;
+}
+.item {
+  display: inline-block;
+  padding: 15px 15px;
+}
+.item:hover {
+  color: crimson;
+}
+.item__inicio,
+.item__acerca,
+.item__contacto,
+.item__galeria,
+.item__proyectos {
   /* -- text-decoration-none -- */
   text-decoration: none;
 }
-a:hover {
-  color: crimson;
-}
-/* barra de navegacion */
-nav ul {
-  float: right;
-  padding-top: 15px;
-  /* -- list-style-type: none --*/
-  list-style-type: none;
-}
-nav ul li {
-  display: inline-block;
-  padding: 5px 15px;
-}
-nav img {
-  max-width: 80px;
-}
-/*---- pagina principal ----*/
+/*---- pagina principal  de acerca de mi ----*/
 .acercademi {
   height: 100vh;
-}
-.acercademi img {
-  max-width: 200px;
-}
-div {
   /* -- text-align-center */
   text-align: center;
 }
-div h1 {
-  font-size: 25px;
-  text-align: center;
-  padding: 15px 10px;
-}
-div img {
+.acercademi__img {
+  max-width: 200px;
   border-radius: 50px;
   margin: auto;
   display: block;
 }
-div p {
+.acercademi__titulo,
+.acercademi__titulo2,
+.acercademi__titulo3 {
+  font-size: 25px;
+  text-align: center;
+  padding: 15px 10px;
+}
+.acercademi--text,
+.acercademi__titulo2--text,
+.acercademi__titulo3--text {
   font-size: 20px;
   padding: 20px;
   text-align: center;
 }
-strong {
+
+.resalto {
   color: crimson;
 }
-/* pie de pagina */
-footer {
-  /* --background-color -- */
+/* --pie de pagina --*/
+.footer {
   background-color: gray;
 }
-footer div h2 {
+.footer__contenedor {
+}
+.redes_sociales {
   color: honeydew;
   font-size: 20px;
-  /* -- text-align-center */
   text-align: center;
 }
-footer div ul {
-  /* -- text-align-center */
+.footer__lista {
   text-align: center;
 }
-footer div ul li {
+.footer__item {
   display: inline-block;
   padding: 15px 15px;
   text-align: center;
 }
-footer div ul li a {
-  color: honeydew;
+.fab:hover {
+  color: crimson;
 }
-footer p {
+.fab {
+  color: honeydew;
+  font-size: 35px;
+}
+.footer__text {
   color: lavenderblush;
   font-size: 18px;
   text-align: center;
-}
-.fab {
-  font-size: 35px;
 }

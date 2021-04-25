@@ -9,6 +9,7 @@
     <meta name="keywords" content="desarrollo web, html, css, frontend">
     <meta name="author" content="Tsutsumi Jose Antonio">
     <meta name="robots" content="index">
+    <link rel="stylesheet" href="./style/normalize.css">
     <link rel="stylesheet" href="./style/sobre-mi.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
         integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
@@ -35,25 +36,26 @@
 </head>
 <!-- Pagina de enlace sobre-mi -->
 
-<body>
-    <header>
-        <nav>
-            <img src="./images/logo.webp" alt="Logo">
+<body class="body">
+    <header class="header">
+        <nav class="menu">
+            <img class="logo" src="./images/logo.webp" alt="Logo">
+            <h1 class="header__titulo">Porfolio TSUTSUMI, José Antonio</h1>
             <!-- listas de enlace de navegacion -->
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="acerca-de-mi.html">Acerca de mi</a></li>
-                <li><a href="proyectos.html">Proyectos</a></li>
-                <li><a href="galeria.html">Galerias de fotos</a></li>
-                <li><a href="contacto.html">Contactos</a></li>
+            <ul class="listas">
+                <li class="item"><a class="item__inicio" href="index.html">Inicio</a></li>
+                <li class="item"><a class="item__acerca" href="acerca-de-mi.html">Acerca de mi</a></li>
+                <li class="item"><a class="item__proyectos" href="proyectos.html">Proyectos</a></li>
+                <li class="item"><a class="item__galeria" href="galeria.html">Galerias de fotos</a></li>
+                <li class="item"><a class="item__contacto" href="contacto.html">Contactos</a></li>
             </ul>
         </nav>
     </header>
     <div class="acercademi">
-        <h1>Acerca de mi</h1>
-        <img src="./images/foto-mia.jpg" alt="foto-mia" />
-        <p>Me encuentro en la búsqueda de
-            <strong>nuevos desafíos como
+        <h1 class="acercademi__titulo">Acerca de mi</h1>
+        <img class="acercademi__img" src="./images/foto-mia.jpg" alt="foto-mia" />
+        <p class="acercademi--text">Me encuentro en la búsqueda de
+            <strong class="resalto">nuevos desafíos como
                 programador</strong>, en una empresa
             que me permita desarrollar mis
             potenciales actitudes
@@ -63,26 +65,27 @@
             entusiasta, activa y en constante
             aprendizaje.
         </p>
-        <h2>SKILLS</h2>
-        <p> HTML - CSS - VSCode- Balsamiq </p>
-        <h2>Academias:</h2>
-        <p>Digital House- Udemy- Educacion IT- CoderHouse </p>
+        <h2 class="acercademi__titulo2">SKILLS</h2>
+        <p class="acercademi__titulo2--text"> HTML - CSS - VSCode- Balsamiq </p>
+        <h2 class="acercademi__titulo3">Academias:</h2>
+        <p class="acercademi__titulo3--txt">Digital House- Udemy- Educacion IT- CoderHouse </p>
         <br>
-        <a href="index.html">Volver a Inicio</a>
+        <a class="enlace" href="index.html">Volver a Inicio</a>
     </div>
-    <footer>
-        <div>
+    <footer class="footer">
+        <div class="footer__contenedor">
             <!-- Redes sociales. -->
-            <h2>Redes Sociales</h2>
-            <ul>
-                <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a></li>
-                <li><a href="https://www.yahoo.com/"><i class="fab fa-yahoo"></i></a></li>
-                <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a></li>
-                <li><a href="https://www.github.com/"><i class="fab fa-github"></i></a></li>
+            <h2 class="redes_sociales">Redes Sociales</h2>
+            <ul class="footer__lista">
+                <li class="footer__item"><a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                </li>
+                <li class="footer__item"><a href="https://www.yahoo.com/"><i class="fab fa-yahoo"></i></a></li>
+                <li class="footer__item"><a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a></li>
+                <li class="footer__item"><a href="https://www.github.com/"><i class="fab fa-github"></i></a></li>
             </ul>
         </div>
         <hr />
-        <p>Todos los derechos reservados - Tsutsumi Jose Antonio- Abril de 2021.</p>
+        <p class="footer__text">Todos los derechos reservados - Tsutsumi Jose Antonio- Abril de 2021.</p>
     </footer>
 
 </body>

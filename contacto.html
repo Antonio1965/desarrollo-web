@@ -9,6 +9,7 @@
     <meta name="keywords" content="desarrollo web, html, css, frontend">
     <meta name="author" content="Tsutsumi Jose Antonio">
     <meta name="robots" content="index">
+    <link rel="stylesheet" href="./style/normalize.css">
     <link rel="stylesheet" href="./style/contacto.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
         integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
@@ -34,87 +35,91 @@
     <title>Contactos</title>
 </head>
 
-<body>
+<body class="body">
     <!-- cabecera de la página -->
-    <header>
-        <nav>
-            <img src="./images/logo.webp" alt="Logo">
+    <header class="header">
+        <nav class="menu">
+            <img class="logo" src="./images/logo.webp" alt="Logo">
+            <h1 class="header__titulo">Porfolio de TSUTSUMI, José Antonio</h1>
             <!-- listas de enlace de navegacion -->
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="acerca-de-mi.html">Acerca de mi</a></li>
-                <li><a href="proyectos.html">Proyectos</a></li>
-                <li><a href="galeria.html">Galerias de fotos</a></li>
-                <li><a href="contacto.html">Contactos</a></li>
+            <ul class="listas">
+                <li class="item"><a class="item__inicio" href="index.html">Inicio</a></li>
+                <li class="item"><a class="item__acerca" href="acerca-de-mi.html">Acerca de mi</a></li>
+                <li class="item"><a class="item__proyectos" href="proyectos.html">Proyectos</a></li>
+                <li class="item"><a class="item__galeria" href="galeria.html">Galerias de fotos</a></li>
+                <li class="item"><a class="item__contacto" href="contacto.html">Contactos</a></li>
             </ul>
         </nav>
     </header>
     <div class="contactos">
-        <h2>Contactos:</h2>
+        <h2 class="contactos__titulo">Contactos:</h2>
         <!-- formulario  -->
-        <form action="#">
-            <fieldset>
-                <legend>Información Personal</legend>
+        <form class="contactos__formulario" action="#">
+            <fieldset class="contactos__control">
+                <legend class="contactos__leyenda">Información Personal</legend>
                 <!-- Radio boton -->
-                <input type="radio" required value="opcion1" name="genero" id="masculino" checked>
-                <label for="masculino">Masculino</label>
+                <input class="contactos__input" type="radio" required value="opcion1" name="genero" id="masculino"
+                    checked>
+                <label class="contactos__label" for="masculino">Masculino</label>
                 <br>
-                <input type="radio" required value="opcion2" name="genero" id="femenino">
-                <label for="femenino">Femenino</label>
+                <input class="contactos__input" type="radio" required value="opcion2" name="genero" id="femenino">
+                <label class="contactos__label" for="femenino">Femenino</label>
                 <br>
-                <input type="radio" required value="opcion3" name="genero" id="otros">
-                <label>Otros</label>
+                <input class="contactos__input" type="radio" required value="opcion3" name="genero" id="otros">
+                <label class="contactos__label">Otros</label>
                 <br>
                 <br>
                 <!-- Input text -->
-                <label for="nombre">Nombre</label>
-                <input type="text" minlength="3" required name="nombre" id="nombre">
+                <label class="contactos__label" for="nombre">Nombre</label>
+                <input class="contactos__input" type="text" minlength="3" required name="nombre" id="nombre">
                 <br>
                 <br>
-                <label for="nombre">Apellido</label>
-                <input type="text" minlength="3" required name="apellido" id="apellido">
+                <label class="contactos__label" for="nombre">Apellido</label>
+                <input class="contactos__input" type="text" minlength="3" required name="apellido" id="apellido">
                 <br>
                 <br>
                 <!-- input email -->
-                <label for="nombre">Correo</label>
-                <input type="email" required placeholder="Ej. jose@gmail.com" name="email" id="email">
+                <label class="contactos__label" for="nombre">Correo</label>
+                <input class="contactos__input" type="email" required placeholder="Ej. jose@gmail.com" name="email"
+                    id="email">
                 <br>
                 <br>
                 <div id="terminos">
                     " Desea recibir nuestro correo??"
-                    <input type="checkbox" name="acepta" value="1">
+                    <input class="contactos__input" type="checkbox" name="acepta" value="1">
 
                 </div>
                 <!-- Cuadro de mensajes -->
-                <label for="mensaje" class="comentarios">Comentarios:</label>
+                <label class="contactos__label" for="mensaje" class="comentarios">Comentarios:</label>
                 <br>
                 <br>
                 <!-- textarea -->
-                <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                <textarea class="contactos__textarea" name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
                 <br>
                 <br>
                 <!-- boton para enviar y resetear o borrar -->
-                <button type="submit">Enviar</button>
-                <button type="reset">Borrar</button>
+                <button class="contactos__boton" type="submit">Enviar</button>
+                <button class="contactos__boton" type="reset">Borrar</button>
             </fieldset>
         </form>
         <br>
-        <a href="index.html">Volver a Inicio</a>
+        <a class="enlace" href="index.html">Volver a Inicio</a>
     </div>
     <!-- pie de página -->
-    <footer>
-        <div>
+    <footer class="footer">
+        <div class="footer__contenedor">
             <!-- Redes sociales. -->
-            <h2>Redes Sociales</h2>
-            <ul>
-                <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a></li>
-                <li><a href="https://www.yahoo.com/"><i class="fab fa-yahoo"></i></a></li>
-                <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a></li>
-                <li><a href="https://www.github.com/"><i class="fab fa-github"></i></a></li>
+            <h2 class="redes_sociales">Redes Sociales</h2>
+            <ul class="footer__lista">
+                <li class="footer__item"><a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                </li>
+                <li class="footer__item"><a href="https://www.yahoo.com/"><i class="fab fa-yahoo"></i></a></li>
+                <li class="footer__item"><a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a></li>
+                <li class="footer__item"><a href="https://www.github.com/"><i class="fab fa-github"></i></a></li>
             </ul>
         </div>
         <hr />
-        <p>Todos los derechos reservados - Tsutsumi Jose Antonio- Abril de 2021.</p>
+        <p class="footer__text">Todos los derechos reservados - Tsutsumi Jose Antonio- Abril de 2021.</p>
     </footer>
 
 </body>

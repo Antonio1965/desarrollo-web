@@ -11,98 +11,104 @@
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-body {
+.body {
   /* -- background-image-- */
   background-image: url("../images/turqueza1.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
 /* header cabecera*/
-header {
-  padding: 5px 2px;
-  /* --background-color -- */
-  background-color: cornflowerblue;
+/* header cabecera*/
+.header {
   position: sticky;
   top: 0px;
 }
-header nav img {
-  border-radius: 10px;
+.menu {
+  /* --background-color -- */
+  background-color: cornflowerblue;
 }
-a {
-  /* -- text-decoration-none -- */
-  text-decoration: none;
+.header__titulo {
+  display: inline-block;
+  margin-left: 10px;
 }
-a:hover {
+.logo {
+  /* -- Estilo borde -- */
+  border-radius: 10px / 30px;
+  max-width: 80px;
+}
+/* --menu de navegacion */
+.listas {
+  padding-top: 25px;
+  float: right;
+}
+.item {
+  display: inline-block;
+  padding: 15px 15px;
+}
+.item:hover {
   color: crimson;
 }
-/* barra de navegacion */
-nav ul {
-  float: right;
-  padding-top: 15px;
-  /* -- list-style-type: none --*/
-  list-style-type: none;
-}
-nav ul li {
-  display: inline-block;
-  padding: 5px 15px;
-}
-nav img {
-  max-width: 80px;
+.item__inicio,
+.item__acerca,
+.item__contacto,
+.item__galeria,
+.item__proyectos {
+  /* -- text-decoration-none -- */
+  text-decoration: none;
 }
 /*---- pagina de tablas----*/
 .galerias {
   min-height: 100vh;
 }
-table {
+.galerias_tablas {
   text-align: center;
-  width: 90%;
+  width: 100%;
   height: 100%;
 }
 
-table h3 {
+.galerias_tablas--titulo {
   padding: 20px;
   font-size: 35px;
 }
-table td img {
+.galerias__tablas--video,
+.galerias__tablas--imagen {
   border-radius: 20px;
   max-width: 200px;
   max-height: 200px;
 }
-table td iframe {
-  border-radius: 20px;
-  max-width: 200px;
-  max-height: 200px;
-}
-table tr th {
+
+.galerias__tablas--subtitulo {
   padding: 20px;
+  font-size: 20px;
 }
 /* pie de pagina */
-footer {
+.footer {
   background-color: gray;
 }
-footer div h2 {
+.footer__contenedor {
+}
+.redes_sociales {
   color: honeydew;
   font-size: 20px;
-  /* -- text-align-center */
   text-align: center;
 }
-footer div ul {
-  /* -- text-align-center */
+.footer__lista {
   text-align: center;
 }
-footer div ul li {
+.footer__item {
   display: inline-block;
   padding: 15px 15px;
   text-align: center;
 }
-footer div ul li a {
-  color: honeydew;
+.fab:hover {
+  color: crimson;
 }
-footer p {
+.fab {
+  color: honeydew;
+  font-size: 35px;
+}
+.footer__text {
   color: lavenderblush;
   font-size: 18px;
   text-align: center;
-}
-.fab {
-  font-size: 35px;
 }

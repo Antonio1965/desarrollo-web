@@ -15,10 +15,14 @@
     -Background-image.
     -Background-repeat.
     -Background-attachment.
+    
 2.- Otros: adelantos.
     -Se agraga iconos en redes sociales.
     -Se agrega favicons.
     -Se agrega meta para mejorar la navegación.
     -Se agrega etiqueta iframe en el proyecto.
+3.- -Proyecto Final
+    -Se corrigio en css con metodos BEM.
+
     
 
