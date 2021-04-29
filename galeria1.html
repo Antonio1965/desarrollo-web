@@ -10,7 +10,7 @@
     <meta name="author" content="Tsutsumi Jose Antonio">
     <meta name="robots" content="index">
     <link rel="stylesheet" href="./style/normalize.css">
-    <link rel="stylesheet" href="./style/galeria.css">
+    <link rel="stylesheet" href="./style/galeria1.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
         integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <!-- favicons -->
@@ -41,7 +41,7 @@
     <header class="header">
         <nav class="menu">
             <img class="logo" src="./images/logo.webp" alt="Logo">
-            <h1 class="header__titulo">Portfolio de TSUTSUMI, José Antonio</h1>
+            <h1 class="header__titulo">Porfolio de TSUTSUMI, José Antonio</h1>
             <!-- listas de enlace de navegacion -->
             <ul class="listas">
                 <li class="item"><a class="item__inicio" href="index.html">Inicio</a></li>
@@ -52,58 +52,76 @@
             </ul>
         </nav>
     </header>
-    <!-- Se inserta tabla -->
-    <div class="galerias">
-        <table class="galerias_tablas">
-            <caption>
-                <h3 class="galerias_tablas--titulo">Galerias de Fotos-Videos-Audios</h3>
-            </caption>
+    <!-- flexbox -->
+    <div class="contenedor__padre">
 
-            <tr>
-                <th class="galerias__tablas--subtitulo">Video 1</th>
-                <th class="galerias__tablas--subtitulo">Video 2</th>
-                <th class="galerias__tablas--subtitulo">Foto 1</th>
-                <th class="galerias__tablas--subtitulo">Foto 2</th>
-                <th class="galerias__tablas--subtitulo">Foto 3</th>
+        <div class="contenedor__imagen1">
+            <img class="contenedor__imagen1--img" src="./images/buque1.jpg" alt="buque1">
+            <h2 class="contenedor__imagen1--titulo">Buque 1</h2>
+            <p class="contenedor__imagen1--text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque,
+                eum?</p>
+        </div>
+        <div class="contenedor__imagen2">
+            <h2 class="contenedor__imagen2--titulo">Buque 2</h2>
+            <img class="contenedor__imagen2--img" src="./images/buque2.jpg" alt="buque2">
+            <p class="contenedor__imagen2--text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque,
+                eum?</p>
+        </div>
+        <div class="contenedor__imagen3">
+            <h2 class="contenedor__imagen3--titulo">Buque 3</h2>
+            <img class="contenedor__imagen3--img" src="./images/buque3.jpg" alt="buque3">
+            <p class="contenedor__imagen3--text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque,
+                eum?</p>
+        </div>
+        <div class="contenedor__imagen4">
+            <h2 class="contenedor__imagen4--titulo">Buque 4</h2>
+            <img class="contenedor__imagen4--img" src="./images/buque4.jpg" alt="buque4">
+            <p class="contenedor__imagen4--text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque,
+                eum?</p>
+        </div>
+        <div class="contenedor__imagen5">
+            <h2 class="contenedor__imagen5--titulo">Imagen 1</h2>
+            <img class="contenedor__imagen5--img" src="./images/imagen1.jpg" alt="imagen1">
+            <p class="contenedor__imagen5--text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque,
+                eum?</p>
+        </div>
 
-            </tr>
-            <tr>
-                <td><iframe class="galerias__tablas--video" src="https://www.youtube.com/embed/pd7JGO2A3so"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe></td>
-                <td><iframe class="galerias__tablas--video" src="https://www.youtube.com/embed/ll6xSsbPg3k"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe></td>
-                <td><img class="galerias__tablas--imagen" src="images/buque3.jpg" alt="buque3"></td>
-                <td><img class="galerias__tablas--imagen" src="images/buque4.jpg" alt="buque4"></td>
-                <td><img class="galerias__tablas--imagen" src="images/bg.jpg" alt="bg"></td>
-            </tr>
-            <tr>
-                <th class="galerias__tablas--subtitulo">Imagen 1</th>
-                <th class="galerias__tablas--subtitulo">Imagen 2</th>
-                <th class="galerias__tablas--subtitulo">Imagen 3</th>
-                <th class="galerias__tablas--subtitulo">Imagen 4</th>
-                <th class="galerias__tablas--subtitulo">Imagen 5</th>
-            </tr>
-            <tr>
-                <td><img class="galerias__tablas--imagen" src="images/imagen1.jpg" class="img-responsive"
-                        style="width:100%" alt="imagen1"></td>
-                <td><img class="galerias__tablas--imagen" src="images/imagen2.jpg" style="max-width: 200px"
-                        alt="imagen2"></td>
-                <td><img class="galerias__tablas--imagen" src="images/imagen3.jpg" style="max-width: 200px"
-                        alt="imagen3"></td>
-                <td><img class="galerias__tablas--imagen" src="images/imagen4.jpg" style="max-width: 200px"
-                        alt="imagen4"></td>
-                <td><img class="galerias__tablas--imagen" src="images/imagen5.jpg" style="max-width: 200px"
-                        alt="imagen5"></td>
-            </tr>
 
-        </table>
-        <br>
-        <br>
-        <a class="enlace" href="index.html">Volver a Inicio</a>
+        <div class="contenedor__imagen6">
+            <h2 class="contenedor__imagen6--titulo">Imagen 2</h2>
+            <img class="contenedor__imagen6--img" src="./images/imagen2.jpg" alt="imagen2">
+            <p class="contenedor__imagen1--text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque,
+                eum?</p>
+        </div>
+        <div class="contenedor__imagen7">
+            <h2 class="contenedor__imagen7--titulo">Imagen 3</h2>
+            <img class="contenedor__imagen7--img" src="./images/imagen3.jpg" alt="imagen3">
+            <p class="contenedor__imagen7--text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque,
+                eum?</p>
+        </div>
+        <div class="contenedor__imagen8">
+            <h2 class="contenedor__imagen8--titulo">Imagen 4</h2>
+            <img class="contenedor__imagen8--img" src="./images/imagen4.jpg" alt="imagen4">
+            <p class="contenedor__imagen1--text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque,
+                eum?</p>
+        </div>
+        <div class="contenedor__imagen9">
+            <h2 class="contenedor__imagen9--titulo">Imagen 5</h2>
+            <img class="contenedor__imagen9--img" src="./images/imagen5.jpg" alt="imagen5">
+            <p class="contenedor__imagen9--text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque,
+                eum?</p>
+        </div>
+        <div class="contenedor__imagen10">
+            <h2 class="contenedor__imagen10--titulo">Proyectos</h2>
+            <img class="contenedor__imagen10--img" src="./images/proyecto.jpg" alt="proyectos">
+            <p class="contenedor__imagen10--text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque,
+                eum?</p>
+        </div>
+
+    </div>
     </div>
     <br>
+    <a class="enlace" href="index.html">Volver a Inicio</a>
     <br>
     <!-- pie de página -->
     <footer class="footer">
