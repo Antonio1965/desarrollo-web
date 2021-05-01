@@ -13,13 +13,13 @@
 }
 .body {
   /* -- background-image-- */
-  /* background-image: url("../images/turqueza1.jpg"); */
+  background-image: url("../images/portfolio/portfolio3.jpg");
   /* background-image: url("../images/OIP.jpg"); */
   /* -- background-repeat-- */
   background-repeat: no-repeat;
   /* -- background-attachment-- */
   background-attachment: fixed;
-  background-color: #3edbf0;
+  /* background-color: #3edbf0; */
   background-size: cover;
 }
 /* header cabecera*/
@@ -39,7 +39,7 @@
   /* -- Estilo border-radius-elipce -- */
   border-radius: 10px 30px / 30px 40px;
   max-width: 80px;
-  padding: 3px;
+  padding: 10px;
 }
 /* --menu de navegacion */
 .listas {
@@ -64,6 +64,7 @@
 
 /* ---- pagina INICIO  main ----*/
 .contenedor {
+  color: azure;
 }
 .titulo {
   padding: 20px;
@@ -164,11 +165,14 @@
   text-align: center;
 }
 .enlace {
+  color: crimson;
 }
 /* pie de pagina */
 
 .footer {
   background-color: #2c7573dc;
+  object-fit: contain;
+  bottom: 0%;
 }
 .footer__contenedor {
 }

@@ -13,10 +13,11 @@
 }
 .body {
   /* -- background-image-- */
-  /* background-image: url("../images/turqueza1.jpg"); */
+  background-image: url("../images/portfolio/portfolio3.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-color: #3edbf0;
+  background-size: cover;
+  /* background-color: #3edbf0; */
 }
 /* header cabecera*/
 /* header cabecera*/
@@ -36,7 +37,7 @@
   /* -- Estilo border-radius-elipce -- */
   border-radius: 10px 30px / 30px 40px;
   max-width: 80px;
-  padding: 3px;
+  padding: 10px;
 }
 /* --menu de navegacion */
 .listas {
@@ -60,9 +61,10 @@
 }
 /* ----pagina pricipal  de proyectos ----*/
 .proyectos {
-  height: 100vh;
+  max-height: 100vh;
   /* -- text-align-center */
   text-align: center;
+  color: azure;
 }
 .proyectos__titulo {
   padding: 20px;
@@ -77,6 +79,9 @@
 .tablas__celdas {
   padding: 15px;
   font-size: 18px;
+}
+.enlace {
+  color: crimson;
 }
 /* pie de pagina */
 .footer {
