@@ -59,6 +59,7 @@
 }
 /*---- pagina de formularios----*/
 .contactos {
+  height: 100vh;
   color: azure;
 }
 .contactos__titulo {

@@ -61,7 +61,7 @@
 }
 /* ----pagina pricipal  de proyectos ----*/
 .proyectos {
-  max-height: 100vh;
+  height: 100vh;
   /* -- text-align-center */
   text-align: center;
   color: azure;
