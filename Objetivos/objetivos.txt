@@ -1,29 +1,12 @@
 - Objetivos Generales.
-1.- Se arma con Balsamiq, el esqueleto wireframes del proyectos, desplegable en cincos hojas.
-2.- Se arma un esqueleto del proyecto con HTML.
-- Objetivos Especificos.
-1.- Se agraga estilos al proyectos de HTML , con CSS se agregan:
-    -Reseteo de CSS.
-    -List-style-type.
-    -Font-style.
-    -Font-weight.
-    -Font-size.
-    -Font-family.
-    -Text-align.
-    -Border-radius (elipce).
-    -Text-decoration.
-    -Background-color.
-    -Background-image.
-    -Background-repeat.
-    -Background-attachment.
+TRANSFORMACIONES Y ANIMACIONES.
 
-2.- Otros: adelantos.
-    -Se agraga iconos en redes sociales.
-    -Se agrega favicons.
-    -Se agrega meta para mejorar la navegación.
-    -Se agrega etiqueta iframe en el proyecto.
-3.- -Proyecto Final
-    -Se corrigio en css con metodos BEM.
+1.- Se agrega transform scale a la etiqueta logo.
+2.- Se agrega transform scale a la etiqueta nav__item.
+3.- Se agrega linear-gradient en etiqueta footer.
+4.- Se agrega linear-gradient en la etiqueta header.
+5.- Se aplica transformaciones de imagenes en la pagina principal de index.html.
+6.-
 
     
 
