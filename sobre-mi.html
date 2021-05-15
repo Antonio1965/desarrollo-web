@@ -37,23 +37,27 @@
 <!-- Pagina de enlace sobre-mi -->
 
 <body class="body">
+    <!-- cabecera de la página -->
     <header class="header">
-        <nav class="menu">
-            <img class="logo" src="./images/logo.webp" alt="Logo">
-            <h1 class="header__titulo">Portfolio de TSUTSUMI, José Antonio</h1>
-            <!-- listas de enlace de navegacion -->
-            <ul class="listas">
-                <li class="item"><a class="item__inicio" href="index.html">Inicio</a></li>
-                <li class="item"><a class="item__acerca" href="acerca-de-mi.html">Acerca de mi</a></li>
-                <li class="item"><a class="item__proyectos" href="proyectos.html">Proyectos</a></li>
-                <li class="item"><a class="item__galeria" href="galeria.html">Galerias de fotos</a></li>
-                <li class="item"><a class="item__contacto" href="contacto.html">Contactos</a></li>
-            </ul>
+        <nav class="navbar">
+            <a class="item__inicio" href="index.html"><img class="logo" src="./images/antonio.jpg" alt="Logo"></a>
+            <h1 class="header__title">TSUTSUMI, JOSE ANTONIO</h1>
         </nav>
+
+        <!-- listas de enlace de navegacion -->
+        <ul class="nav__list">
+            <li class="nav__item"><a class="item__acerca" href="sobre-mi.html">SOBRE-MI</a></li>
+            <li class="nav__item"><a class="item__proyectos" href="proyectos.html">PROYECTOS</a></li>
+            <li class="nav__item"><a class="item__galerias" href="galerias.html">GALERIAS</a></li>
+            <li class="nav__item"><a class="item__contactos" href="contactos.html">CONTACTOS</a></li>
+        </ul>
     </header>
-    <div class="acercademi">
-        <h1 class="acercademi__titulo">Acerca de mi</h1>
-        <img class="acercademi__img" src="./images/foto-mia.jpg" alt="foto-mia" />
+
+    <!-- Pagina principal -->
+
+    <main class="acercademi">
+        <h1 class="acercademi__titulo">Sobre-mi</h1>
+        <img class="acercademi__img" src="./images/ninja.png" alt="foto-mia" />
         <p class="acercademi--text">Me encuentro en la búsqueda de
             <strong class="resalto">nuevos desafíos como
                 programador</strong>, en una empresa
@@ -70,8 +74,23 @@
         <h2 class="acercademi__titulo3">Academias:</h2>
         <p class="acercademi__titulo3--txt">Digital House- Udemy- Educacion IT- CoderHouse </p>
         <br>
+
+        <!-- video presentacion  -->
+
+    </main>
+    <div class="video__contenedor">
+        <div class="video__presentacion">
+            <iframe class="presentacion" width="300" height="300" src="https://www.youtube.com/embed/KVakLLMBQxg"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="volver">
         <a class="enlace" href="index.html">Volver a Inicio</a>
     </div>
+
+    <!-- Footer, pie de página -->
     <footer class="footer">
         <div class="footer__contenedor">
             <!-- Redes sociales. -->

@@ -10,7 +10,7 @@
     <meta name="author" content="Tsutsumi Jose Antonio">
     <meta name="robots" content="index">
     <link rel="stylesheet" href="./style/normalize.css">
-    <link rel="stylesheet" href="./style/contacto.css">
+    <link rel="stylesheet" href="./style/contactos.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
         integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <!-- favicons -->
@@ -38,22 +38,25 @@
 <body class="body">
     <!-- cabecera de la página -->
     <header class="header">
-        <nav class="menu">
-            <img class="logo" src="./images/logo.webp" alt="Logo">
-            <h1 class="header__titulo">Portfolio de TSUTSUMI, José Antonio</h1>
-            <!-- listas de enlace de navegacion -->
-            <ul class="listas">
-                <li class="item"><a class="item__inicio" href="index.html">Inicio</a></li>
-                <li class="item"><a class="item__acerca" href="acerca-de-mi.html">Acerca de mi</a></li>
-                <li class="item"><a class="item__proyectos" href="proyectos.html">Proyectos</a></li>
-                <li class="item"><a class="item__galeria" href="galeria.html">Galerias de fotos</a></li>
-                <li class="item"><a class="item__contacto" href="contacto.html">Contactos</a></li>
-            </ul>
+        <nav class="navbar">
+            <a class="item__inicio" href="index.html"><img class="logo" src="./images/antonio.jpg" alt="Logo"></a>
+            <h1 class="header__title">TSUTSUMI, JOSE ANTONIO</h1>
         </nav>
+
+        <!-- listas de enlace de navegacion -->
+        <ul class="nav__list">
+            <li class="nav__item"><a class="item__acerca" href="sobre-mi.html">SOBRE-MI</a></li>
+            <li class="nav__item"><a class="item__proyectos" href="proyectos.html">PROYECTOS</a></li>
+            <li class="nav__item"><a class="item__galerias" href="galerias.html">GALERIAS</a></li>
+            <li class="nav__item"><a class="item__contactos" href="contactos.html">CONTACTOS</a></li>
+        </ul>
     </header>
-    <div class="contactos">
+
+    <main class="contactos">
         <h2 class="contactos__titulo">Contactos:</h2>
+
         <!-- formulario  -->
+
         <form class="contactos__formulario" action="#">
             <fieldset class="contactos__control">
                 <legend class="contactos__leyenda">Información Personal</legend>
@@ -102,10 +105,12 @@
                 <button class="contactos__boton" type="reset">Borrar</button>
             </fieldset>
         </form>
-        <br>
-        <a class="enlace" href="index.html">Volver a Inicio</a>
-    </div>
-    <!-- pie de página -->
+        <div class="volver">
+            <a class="enlace" href="index.html">Volver a Inicio</a>
+        </div>
+    </main>
+
+    <!-- Footer, pie de página -->
     <footer class="footer">
         <div class="footer__contenedor">
             <!-- Redes sociales. -->

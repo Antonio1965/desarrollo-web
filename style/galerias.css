@@ -58,64 +58,63 @@ a {
   text-decoration: none;
 }
 
-/* Pagina de sobre-mi */
+/* Pagina de galerias */
 
-.acercademi {
-  color: black;
-  text-align: center;
-  margin-bottom: 2em;
+.galerias__contenedor {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.acercademi__img {
-  max-width: 200px;
-  border-radius: 50px;
-  border: black 1px solid;
-  margin: auto;
-  display: block;
+.video__contenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  gap: 100px;
 }
-.acercademi__titulo,
-.acercademi__titulo2,
-.acercademi__titulo3 {
+/* .video__contenedor, */
+.imagen__contenedor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-rows: 2fr;
+  padding: 5px 10px;
+  gap: 10px;
+  color: rgba(0, 0, 0, 0.384);
+}
+.galerias__imagen,
+.galerias__video {
+  width: 440px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+/* Transformaciones de imagenes y videos.  */
+
+.galerias__video:hover,
+.galerias__imagen:hover {
+  transform: scale(1.2);
+  transform-origin: bottom center;
+}
+
+/* ----------------------------------------- */
+
+.galerias__titulo {
+  padding: 20px;
   font-size: 25px;
   text-align: center;
-  padding: 15px 10px;
 }
-.acercademi--text,
-.acercademi__titulo2--text,
-.acercademi__titulo3--text {
-  font-size: 20px;
-  padding: 20px;
+.galerias__subtitulo {
+  background-color: rgba(169, 169, 169, 0.555);
+  display: grid;
   text-align: center;
-}
-.presentacion {
-  border-radius: 20px;
-}
-
-/* Responsive  de video. */
-
-.video__contenedor {
-  /* background-color: brown; */
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  min-width: 320px;
-  max-width: 1200px;
-}
-.video__presentacion {
-  height: 0;
-  padding-bottom: 20.25%;
-  padding-left: 25%;
-  position: relative;
-}
-.presentacion {
-  position: absolute;
-  width: 50%;
-  height: 100%;
-}
-
-/* --------------------------------- */
-
-.resalto {
-  color: crimson;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px 0px;
 }
 .enlace {
   color: crimson;
@@ -125,7 +124,7 @@ a {
   text-align: center;
 }
 
-/* --pie de pagina --*/
+/* pie de pagina */
 .footer {
   background-color: #2c7573dc;
 }
