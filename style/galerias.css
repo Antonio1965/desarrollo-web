@@ -131,7 +131,7 @@ a {
 
 /* pie de pagina */
 .footer {
-  background-color: #2c7573dc;
+  /* background-color: #2c7573dc; */
   background: linear-gradient(to top, #a6b4b4f8, #2c7573f8);
 }
 .footer__contenedor {

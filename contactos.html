@@ -36,7 +36,9 @@
 </head>
 
 <body class="body">
+
     <!-- cabecera de la página -->
+
     <header class="header">
         <nav class="navbar">
             <a class="item__inicio" href="index.html"><img class="logo" src="./images/antonio.jpg" alt="Logo"></a>
@@ -44,6 +46,7 @@
         </nav>
 
         <!-- listas de enlace de navegacion -->
+
         <ul class="nav__list">
             <li class="nav__item"><a class="item__acerca" href="sobre-mi.html">SOBRE-MI</a></li>
             <li class="nav__item"><a class="item__proyectos" href="proyectos.html">PROYECTOS</a></li>
@@ -52,15 +55,16 @@
         </ul>
     </header>
 
+    <!-- Pagina principal de contactos.html -->
+
     <main class="contactos">
         <h2 class="contactos__titulo">Contactos:</h2>
-
-        <!-- formulario  -->
-
         <form class="contactos__formulario" action="#">
             <fieldset class="contactos__control">
                 <legend class="contactos__leyenda">Información Personal</legend>
+
                 <!-- Radio boton -->
+
                 <input class="contactos__input" type="radio" required value="opcion1" name="genero" id="masculino"
                     checked>
                 <label class="contactos__label" for="masculino">Masculino</label>
@@ -71,8 +75,9 @@
                 <input class="contactos__input" type="radio" required value="opcion3" name="genero" id="otros">
                 <label class="contactos__label">Otros</label>
                 <br>
-                <br>
+
                 <!-- Input text -->
+
                 <label class="contactos__label" for="nombre">Nombre</label>
                 <input class="contactos__input" type="text" minlength="3" required name="nombre" id="nombre">
                 <br>
@@ -81,7 +86,9 @@
                 <input class="contactos__input" type="text" minlength="3" required name="apellido" id="apellido">
                 <br>
                 <br>
+
                 <!-- input email -->
+
                 <label class="contactos__label" for="nombre">Correo</label>
                 <input class="contactos__input" type="email" required placeholder="Ej. jose@gmail.com" name="email"
                     id="email">
@@ -92,15 +99,19 @@
                     <input class="contactos__input" type="checkbox" name="acepta" value="1">
 
                 </div>
+
                 <!-- Cuadro de mensajes -->
+
                 <label class="contactos__label" for="mensaje" class="comentarios">Comentarios:</label>
                 <br>
-                <br>
+
                 <!-- textarea -->
+
                 <textarea class="contactos__textarea" name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
                 <br>
-                <br>
+
                 <!-- boton para enviar y resetear o borrar -->
+
                 <button class="contactos__boton" type="submit">Enviar</button>
                 <button class="contactos__boton" type="reset">Borrar</button>
             </fieldset>
@@ -111,9 +122,12 @@
     </main>
 
     <!-- Footer, pie de página -->
+
     <footer class="footer">
         <div class="footer__contenedor">
+
             <!-- Redes sociales. -->
+
             <h2 class="redes_sociales">Redes Sociales</h2>
             <ul class="footer__lista">
                 <li class="footer__item"><a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>

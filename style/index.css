@@ -10,7 +10,6 @@
 .body {
   background-repeat: no-repeat;
   background-attachment: fixed;
-  /* background-color: #fdfdfd; */
   min-height: 100vh;
 }
 /* header cabecera*/
@@ -116,6 +115,8 @@ a {
   padding-top: 140px;
   margin-left: 20px;
 }
+
+/* --Animaciones -- */
 .sobre-mi__texto,
 .proyectos__texto,
 .galerias1__texto,
@@ -123,6 +124,23 @@ a {
 .home__texto {
   padding-top: 10px;
   margin-left: 20px;
+  animation-duration: 3s;
+  animation-name: resalto;
+  animation-iteration-count: infinite;
+}
+@keyframes resalto {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 .inicio__parrafo,
 .sobre-mi__parrafo,

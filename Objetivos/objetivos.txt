@@ -6,7 +6,11 @@ TRANSFORMACIONES Y ANIMACIONES.
 3.- Se agrega linear-gradient en etiqueta footer.
 4.- Se agrega linear-gradient en la etiqueta header.
 5.- Se aplica transformaciones de imagenes en la pagina principal de index.html.
-6.-
+6.- Se aplica transformaciones de transform skew a la pagina de proyectos.
+7.- Se aplica transformaciones de transform scale a la pagina de galerias.
+8.- Se agrega animaciones en la pagina pricipal de index.html.
+9.- Se aplica responsive al video de la pagina sobre-mi.
+10.-
 
     
 
