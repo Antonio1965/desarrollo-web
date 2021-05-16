@@ -94,18 +94,33 @@ a {
   font-size: 20px;
   border-radius: 5px;
 }
+.contactos__label-correo {
+  margin-right: 8px;
+  font-size: 20px;
+  padding-left: 15px;
+}
 .contactos__textarea {
   font-size: 15px;
   border-radius: 10px;
 }
 .contactos__boton {
-  margin: 5px;
-  padding: 10px;
-  border-radius: 5px;
+  position: relative;
+  display: inline-block;
+  padding: 5px 30px;
+  border-radius: 20%;
+  border: 2px solid #0e0d0d;
+  color: #fff;
+  font-size: 30px;
+  font-family: arial;
+  background-image: linear-gradient(to top, #a6b4b4f8, #2c7573f8);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.5s, color 0.5s;
 }
 .contactos__boton:hover {
-  transform: scale(1.2);
-  background-color: rgba(172, 220, 248, 0.466);
+  background-size: 100% 100%;
+  color: #fff;
 }
 .contactos__label {
   font-size: 20px;
@@ -115,7 +130,7 @@ a {
   font-size: 20px;
 }
 .enlace {
-  color: crimson;
+  color: rgba(220, 20, 60, 0.795);
 }
 .volver {
   margin: 10px;
@@ -130,6 +145,7 @@ a {
 .footer__contenedor {
 }
 .redes_sociales {
+  opacity: 0.65;
   color: honeydew;
   font-size: 20px;
   text-align: center;
@@ -143,7 +159,7 @@ a {
   text-align: center;
 }
 .fab:hover {
-  color: crimson;
+  color: rgba(220, 20, 60, 0.623);
 }
 .fab {
   color: honeydew;
@@ -153,4 +169,67 @@ a {
   color: lavenderblush;
   font-size: 18px;
   text-align: center;
+}
+
+/* --media queris-- */
+
+@media screen and (max-width: 380px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+  }
+  .navbar__item {
+    margin-top: 1px;
+  }
+  .nav__list {
+    display: none;
+  }
+  .hamburger-menu {
+    display: flex;
+  }
+  .header__title {
+    font-size: 15px;
+    margin-top: 1.5px;
+  }
+  .sobre-mi__texto,
+  .proyectos__texto,
+  .galerias1__texto,
+  .contactos1__texto,
+  .home__texto {
+    display: flex;
+    justify-content: center;
+  }
+  .inicio__parrafo,
+  .sobre-mi__parrafo,
+  .proyectos__parrafo,
+  .galerias1__parrafo,
+  .contactos1__parrafo,
+  .home__parrafo {
+    display: flex;
+    justify-content: center;
+    font-size: 12.5px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header__title {
+    margin-top: 25px;
+    font-size: 15px;
+  }
+  .item__acerca,
+  .item__proyectos,
+  .item__contactos,
+  .item__galerias {
+    font-size: 15px;
+  }
+  /* .hamburger-menu {
+    display: none;
+  } */
 }
