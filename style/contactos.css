@@ -203,7 +203,7 @@
 @media (max-width: 768px) {
   body {
     background-color: turquoise;
-    padding-top: 70px;
+    padding-top: 0.5px;
   }
   .header {
     height: 60px;

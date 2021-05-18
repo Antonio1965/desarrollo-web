@@ -117,17 +117,12 @@
 .home {
   background-color: violet;
 }
-.inicio:hover,
-.sobre-mi:hover,
-.proyectos:hover,
-.galerias1:hover,
-.contactos1:hover,
-.home:hover {
-  background-color: black;
-}
 .container__item {
   width: 400px;
   height: 500%;
+}
+.container__item:hover {
+  background-color: black;
 }
 .inicio__titulo {
   display: flex;
@@ -180,30 +175,40 @@
 /* transformaciones de imagenes */
 
 .imagen-2:hover {
+  cursor: pointer;
+  transition: 5s;
   opacity: 0.5;
-  transform: translate3d(0px, 0px, 0px) scale3d(0.55, 0.55, 1) rotateX(0deg)
+  transform: translate3d(0px, 0px, 0px) scale3d(0.05, 0.05, 1) rotateX(0deg)
     rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
   transform-style: preserve-3d;
 }
 .imagen-3:hover {
+  cursor: pointer;
+  transition: 3s;
   opacity: 0.75;
   transform: translate3d(0px, 0px, 0px) scale3d(0.5, 0.5, 0.5) rotateX(180deg)
     rotateY(0deg) rotateZ(0deg) skew(10deg, 10deg);
   transform-style: preserve-3d;
 }
 .imagen-4:hover {
+  cursor: pointer;
+  transition: 3s;
   opacity: 1;
   transform: translate3d(40px, -40px, 0px) scale3d(0.6, 0.3, 0.8) rotateX(0deg)
     rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
   transform-style: preserve-3d;
 }
 .imagen-5:hover {
+  cursor: pointer;
+  transition: 3s;
   opacity: 0.7;
   transform: translate3d(0px, 0px, 0px) scale3d(0.85, 0.85, 1) rotateX(0deg)
     rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
   transform-style: preserve-3d;
 }
 .imagen-6:hover {
+  cursor: pointer;
+  transition: 3s;
   opacity: 1;
   transform: translate3d(0px, 0px, 0px) scale3d(0.3, 0.3, 0.3) rotateX(0deg)
     rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
@@ -250,7 +255,7 @@
 @media (max-width: 768px) {
   body {
     background-color: turquoise;
-    padding-top: 70px;
+    padding-top: 0px;
   }
   .header {
     height: 60px;

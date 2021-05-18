@@ -120,6 +120,7 @@
 
 .proyec__video:hover,
 .proyec__img:hover {
+  transition: 3s;
   transform: skew(5deg);
   border: whitesmoke 2px solid;
 }
