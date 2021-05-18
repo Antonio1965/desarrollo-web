@@ -35,6 +35,7 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+    <script defer src="index.js"></script>
     <!-- titulo de la pagina -->
     <title>Proyectos</title>
 </head>
@@ -44,31 +45,34 @@
     <!-- cabecera de la página -->
 
     <header class="header">
-        <nav class="navbar">
-            <a class="item__inicio" href="index.html"><img class="logo" src="./images/antonio.jpg" alt="Logo"></a>
-            <h1 class="header__title">TSUTSUMI, JOSE ANTONIO</h1>
+        <nav class="nav">
+            <a href="./index.html" class="logo"> <img src="./images/antonio.jpg" class="nav-logo" alt=""></a>
+            <h1 class="nav-title">Tsutsumi, José Antonio.</h1>
+            <button class="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu nav-menu__visible">
+                <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="./sobre-mi.html">Sobre-mi</a></li>
+                <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="./proyectos.html">Proyectos</a>
+                </li>
+                <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="./galerias.html">Galerias</a>
+                </li>
+                <li class="nav-menu-item"><a class="nav-menu-link nav-link " href="./contactos.html">Contactos</a>
+                </li>
+            </ul>
         </nav>
-
-        <!-- listas de enlace de navegacion -->
-
-        <ul class="nav__list">
-            <li class="nav__item"><a class="item__acerca" href="sobre-mi.html">SOBRE-MI</a></li>
-            <li class="nav__item"><a class="item__proyectos" href="proyectos.html">PROYECTOS</a></li>
-            <li class="nav__item"><a class="item__galerias" href="galerias.html">GALERIAS</a></li>
-            <li class="nav__item"><a class="item__contactos" href="contactos.html">CONTACTOS</a></li>
-        </ul>
     </header>
 
     <!-- Pagina  principal de proyectos.html -->
 
     <main class="proyectos__contenedor">
         <div class="proyectos1">
-            <h3 class="proyectos1__titulo">Proyecto 1</h3>
-            <iframe class="video1" src="https://www.youtube.com/embed/pd7JGO2A3so"
+            <h3 class="proyec__title">Proyecto 1</h3>
+            <iframe class="proyec__video video1" src="https://www.youtube.com/embed/pd7JGO2A3so"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
-            <h4 class="proyectos1__descr">Descripcion del proyecto.</h4>
-            <p class="proyectos1__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            <h4 class="proyec__descr">Descripcion del proyecto.</h4>
+            <p class="proyec__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
                 voluptatibus, eligendi amet quod,
                 officiis saepe repudiandae non assumenda labore officia repellat animi? Blanditiis dolorem eveniet
                 asperiores facere illum distinctio atque ipsum, quidem iste. At voluptate assumenda labore earum minus
@@ -76,12 +80,12 @@
             </p>
         </div>
         <div class="proyectos2">
-            <h3 class="proyectos2__titulo">Proyecto 2</h3>
-            <iframe class="video2" src="https://www.youtube.com/embed/ll6xSsbPg3k"
+            <h3 class="proyec__title">Proyecto 2</h3>
+            <iframe class="proyec__video video2" src="https://www.youtube.com/embed/ll6xSsbPg3k"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
-            <h4 class="proyectos2__descr">Descripcion del proyecto.</h4>
-            <p class="proyectos2__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            <h4 class="proyec__descr">Descripcion del proyecto.</h4>
+            <p class="proyec_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
                 voluptatibus, eligendi amet quod,
                 officiis saepe repudiandae non assumenda labore officia repellat animi? Blanditiis dolorem eveniet
                 asperiores facere illum distinctio atque ipsum, quidem iste. At voluptate assumenda labore earum minus
@@ -89,10 +93,10 @@
             </p>
         </div>
         <div class="proyectos3">
-            <h3 class="proyectos3__titulo">Proyecto 3</h3>
-            <img class="imagen1" src="images/buque3.jpg" style="max-width: 610px" alt="buque3">
-            <h4 class="proyectos3__descr">Descripcion del proyecto.</h4>
-            <p class="proyectos3__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            <h3 class="proyec__title">Proyecto 3</h3>
+            <img class="proyec__img imagen1" src="images/buque3.jpg" style="max-width: 610px" alt="buque3">
+            <h4 class="proye__descr">Descripcion del proyecto.</h4>
+            <p class="proyec__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
                 voluptatibus, eligendi amet quod,
                 officiis saepe repudiandae non assumenda labore officia repellat animi? Blanditiis dolorem eveniet
                 asperiores facere illum distinctio atque ipsum, quidem iste. At voluptate assumenda labore earum minus
@@ -100,10 +104,10 @@
             </p>
         </div>
         <div class="proyectos4">
-            <h3 class="proyectos4__titulo">Proyecto 4</h3>
-            <img class="imagen2" src="images/imagen4.jpg" style="max-width: 610px" alt="imagen4">
-            <h4 class="proyectos4__descr">Descripcion del proyecto.</h4>
-            <p class="proyectos4__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            <h3 class="proyec__title">Proyecto 4</h3>
+            <img class="proyec__img imagen2" src="images/imagen4.jpg" style="max-width: 610px" alt="imagen4">
+            <h4 class="proyec__descr">Descripcion del proyecto.</h4>
+            <p class="proyec__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
                 voluptatibus, eligendi amet quod,
                 officiis saepe repudiandae non assumenda labore officia repellat animi? Blanditiis dolorem eveniet
                 asperiores facere illum distinctio atque ipsum, quidem iste. At voluptate assumenda labore earum minus
@@ -111,10 +115,10 @@
             </p>
         </div>
         <div class="proyectos5">
-            <h3 class="proyectos5__titulo">Proyecto 5</h3>
-            <img class="imagen3" src="./images/imagen5.jpg" style="max-width: 610px" alt="imagen5">
-            <h4 class="proyectos5__descr">Descripcion del proyecto.</h4>
-            <p class="proyectos5__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            <h3 class="proyec__title">Proyecto 5</h3>
+            <img class="proyec__img imagen3" src="./images/imagen5.jpg" style="max-width: 610px" alt="imagen5">
+            <h4 class="proyec__descr">Descripcion del proyecto.</h4>
+            <p class="proyec__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
                 voluptatibus, eligendi amet quod,
                 officiis saepe repudiandae non assumenda labore officia repellat animi? Blanditiis dolorem eveniet
                 asperiores facere illum distinctio atque ipsum, quidem iste. At voluptate assumenda labore earum minus
@@ -122,31 +126,30 @@
             </p>
         </div>
         <div class="proyectos6">
-            <h3 class="proyectos6__titulo">Proyecto 6</h3>
-            <img class="imagen4" src="./images/imagen2.jpg" style="max-width: 610px" alt="imagen2">
-            <h4 class="proyectos6__descr">Descripcion del proyecto.</h4>
-            <p class="proyectos6__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            <h3 class="proyec__title">Proyecto 6</h3>
+            <img class="proyec__img imagen4" src="./images/imagen2.jpg" style="max-width: 610px" alt="imagen2">
+            <h4 class="proyec__descr">Descripcion del proyecto.</h4>
+            <p class="proyec__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
                 voluptatibus, eligendi amet quod,
                 officiis saepe repudiandae non assumenda labore officia repellat animi? Blanditiis dolorem eveniet
                 asperiores facere illum distinctio atque ipsum, quidem iste. At voluptate assumenda labore earum minus
                 maiores!
             </p>
-        </div>
     </main>
+    </div class="proyectos__futuro">
     <h2 class="proyecto-a-ejecutar">Proyectos a ejecutar...</h2>
     <div class="volver">
         <a class="enlace" href="index.html">Volver a Inicio</a>
     </div>
+    <hr>
 
     <!-- Footer, pie de página -->
 
     <footer class="footer">
-        <div class="footer__contenedor">
-
+        <div class="footer__container">
             <!-- Redes sociales. -->
-
-            <h2 class="redes_sociales">Redes Sociales</h2>
-            <ul class="footer__lista">
+            <h2 class="network__title">Redes Sociales</h2>
+            <ul class="footer__list">
                 <li class="footer__item"><a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
                 </li>
                 <li class="footer__item"><a href="https://www.yahoo.com/"><i class="fab fa-yahoo"></i></a></li>

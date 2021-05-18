@@ -37,6 +37,7 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
+  <script defer src="index.js"></script>
   <!-- titulo de la pagina -->
   <title>CoderHouse-proyectos</title>
 
@@ -47,69 +48,70 @@
   <!-- cabecera de la página -->
 
   <header class="header">
-    <nav class="navbar">
-      <a class="item__inicio" href="index.html"><img class="logo" src="./images/antonio.jpg" alt="Logo"></a>
-      <h1 class="header__title">TSUTSUMI, JOSE ANTONIO</h1>
+    <nav class="nav">
+      <a href="#" class="logo"> <img src="./images/antonio.jpg" class="nav-logo" alt=""></a>
+      <h1 class="nav-title">Tsutsumi, José Antonio.</h1>
+      <button class="nav-toggle">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="nav-menu nav-menu__visible">
+        <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="./sobre-mi.html">Sobre-mi</a></li>
+        <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="./proyectos.html">Proyectos</a>
+        </li>
+        <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="./galerias.html">Galerias</a>
+        </li>
+        <li class="nav-menu-item"><a class="nav-menu-link nav-link nav-menu-link_active"
+            href="./contactos.html">Contactos</a>
+        </li>
+      </ul>
     </nav>
-
-    <!-- listas de enlace de navegacion -->
-
-    <ul class="nav__list">
-      <li class="nav__item"><a class="item__acerca" href="sobre-mi.html">SOBRE-MI</a></li>
-      <li class="nav__item"><a class="item__proyectos" href="proyectos.html">PROYECTOS</a></li>
-      <li class="nav__item"><a class="item__galerias" href="galerias.html">GALERIAS</a></li>
-      <li class="nav__item"><a class="item__contactos" href="contactos.html">CONTACTOS</a></li>
-    </ul>
-
   </header>
 
   <!-- Pagina principal de index.html  -->
 
-  <main class="main__contenedor">
-    <section class="contenedor">
-      <div class="inicio">
+  <main class="main__container">
+    <div class="container">
+      <div class="container__item inicio">
         <img src="./images/hola.png" width="400" height="493.89" class="imagen-2">
-        <h3 class="sobre-mi__texto"> <a href="#">INICIO</a></h3>
-        <p class="inicio__parrafo">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+        <h3 class="container__title sobre-mi__texto"> <a href="#">Inicio</a></h3>
+        <p class="container__text inicio__parrafo">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
       </div>
-      <div class="sobre-mi">
+      <div class="container__item sobre-mi">
         <img src="./images/pikachu.png" width="400" height="493.89" class="imagen-2">
-        <h3 class="sobre-mi__texto"> <a href="sobre-mi.html">SOBRE-MI</a></h3>
-        <p class="sobre-mi__parrafo">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+        <h3 class="container__title sobre-mi__texto"> <a href="sobre-mi.html">Sobre-mi</a></h3>
+        <p class="container__text sobre-mi__parrafo">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
       </div>
-      <div class="proyectos">
+      <div class="container__item proyectos">
         <img src="./images/mundo2.webp" width="400" height="493.89" class="imagen-3">
-        <h3 class="proyectos__texto"> <a href="proyectos.html">PROYECTOS</a></h3>
-        <p class="proyectos__parrafo">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+        <h3 class="container__title proyectos__texto"> <a href="proyectos.html">Proyectos</a></h3>
+        <p class="container__text proyectos__parrafo">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
 
       </div>
-      <div class="galerias1">
+      <div class="container__item galerias1">
         <img src="./images/limon.webp" width="400" height="493.89" class="imagen-4">
-        <h3 class="galerias1__texto"> <a href="galerias.html"> GALERIAS</a></h3>
-        <p class="galerias1__parrafo">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+        <h3 class="container__title galerias1__texto"> <a href="galerias.html"> Galerias</a></h3>
+        <p class="container__text galerias1__parrafo">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
       </div>
-      <div class="contactos1">
-        <img src="./images/correo.webp" width="445" height="493.89" class="imagen-5">
-        <h3 class="contactos1__texto"><a href="contactos.html">CONTACTOS</a></h3>
-        <p class="contactos1__parrafo">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+      <div class="container__item contactos1">
+        <img src="./images/correo.webp" width="400" height="493.89" class="imagen-5">
+        <h3 class="container__title contactos1__texto"><a href="contactos.html">Contactos</a></h3>
+        <p class="container__text contactos1__parrafo">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
       </div>
       <div class="home">
         <img src="./images/volver0.webp" width="400" height="493.89" class="imagen-6">
-        <h3 class="home__texto"><a href="#">HOME</a></h3>
-        <p class="home__parrafo">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+        <h3 class="container__title home__texto"><a href="#">Home</a></h3>
+        <p class="container__text home__parrafo">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
       </div>
-    </section>
+    </div>
   </main>
 
   <!-- Footer, pie de página -->
 
   <footer class="footer">
-    <div class="footer__contenedor">
-
+    <div class="footer__container">
       <!-- Redes sociales. -->
-
-      <h2 class="redes_sociales">Redes Sociales</h2>
-      <ul class="footer__lista">
+      <h2 class="network__title">Redes Sociales</h2>
+      <ul class="footer__list">
         <li class="footer__item"><a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a></li>
         <li class="footer__item"><a href="https://www.yahoo.com/"><i class="fab fa-yahoo"></i></a></li>
         <li class="footer__item"><a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a></li>
