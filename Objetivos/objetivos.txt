@@ -1,4 +1,5 @@
 - Objetivos Generales.
+<<<<<<< HEAD
 TRANSFORMACIONES Y ANIMACIONES.
 
 1.- Se agrega transform scale a la etiqueta logo.
@@ -11,6 +12,14 @@ TRANSFORMACIONES Y ANIMACIONES.
 8.- Se agrega animaciones en la pagina pricipal de index.html.
 9.- Se aplica responsive al video de la pagina sobre-mi.
 10.-
+=======
+
+GIT- GITHUB.-
+1.- Se crea una rama dev-jose1.
+2.- Vuelve hacia un commit anterior.
+3.- Mergea la nueva rama con master.
+
+>>>>>>> dev-jose1
 
     
 
