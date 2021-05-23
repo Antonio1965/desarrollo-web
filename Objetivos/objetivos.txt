@@ -1,16 +1,12 @@
 - Objetivos Generales.
-TRANSFORMACIONES Y ANIMACIONES.
+PROYECTO FINAL.-
+1.- Sube los avances que tengas de tu proyecto hasta el momento en el repositorio.
+2.- El trabajo en el repositorio del proyecto directamente en GitHub.
+3.- Utilizarás el Public URL para la presentación del mismo.
 
-1.- Se agrega transform scale a la etiqueta logo.
-2.- Se agrega transform scale a la etiqueta nav__item.
-3.- Se agrega linear-gradient en etiqueta footer.
-4.- Se agrega linear-gradient en la etiqueta header.
-5.- Se aplica transformaciones de imagenes en la pagina principal de index.html.
-6.- Se aplica transformaciones de transform skew a la pagina de proyectos.
-7.- Se aplica transformaciones de transform scale a la pagina de galerias.
-8.- Se agrega animaciones en la pagina pricipal de index.html.
-9.- Se aplica responsive al video de la pagina sobre-mi.
-10.-
+
+
+
 
     
 
