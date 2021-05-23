@@ -1,12 +1,10 @@
 - Objetivos Generales.
-TRANSFORMACIONES Y ANIMACIONES.
 
-1.- Se agrega transform scale a la etiqueta logo.
-2.- Se agrega transform scale a la etiqueta nav__item.
-3.- Se agrega linear-gradient en etiqueta footer.
-4.- Se agrega linear-gradient en la etiqueta header.
-5.- Se aplica transformaciones de imagenes en la pagina principal de index.html.
-6.-
+GIT- GITHUB.-
+1.- Se crea una rama dev-jose1.
+2.- Vuelve hacia un commit anterior.
+3.- Mergea la nueva rama con master.
+
 
     
 
