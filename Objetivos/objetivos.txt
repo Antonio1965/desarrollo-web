@@ -1,8 +1,11 @@
 - Objetivos Generales.
-GIT - GITHUB.
-1.- Luego crea una rama.
-2.- Vuelve hacia un commit anterior.
-3.- Mergea la nueva rama con master.
+PROYECTO FINAL.-
+1.- Sube los avances que tengas de tu proyecto hasta el momento en el repositorio.
+2.- El trabajo en el repositorio del proyecto directamente en GitHub.
+3.- Utilizarás el Public URL para la presentación del mismo.
+
+
+
 
 
     
