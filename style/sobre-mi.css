@@ -82,11 +82,7 @@ section {
 
 /* --------------------------------- */
 
-.resalto {
-  color: tomato;
-}
 .enlace {
-  color: tomato;
   text-transform: uppercase;
   text-decoration: none;
 }
