@@ -5,6 +5,7 @@
 .body {
   background: linear-gradient(to left top, #ccf5f5, #447976f8);
 }
+/* --Cabecera de la paginas-- */
 .navbar-nav {
   margin-left: auto;
 }
@@ -29,106 +30,56 @@
 }
 
 /* Pagina de proyectos */
-.proyectos-container {
+.proyectos {
   padding-top: 80px;
+  font-family: roboto;
 }
 #proyectos img,
 #proyectos iframe {
   width: 100%;
   height: 250px;
 }
-#proyectos img:hover {
-  border: solid 3px azure;
-  transform: scale(1.25);
-  transition: 3s;
-}
 #proyectos .col-lg-4 {
-  padding: 25px;
-  margin: 0 !important;
+  padding: 5px;
 }
-.enlace {
-  color: tomato;
-  text-transform: uppercase;
-}
-.volver {
-  display: flex;
-  justify-content: center;
-  margin: 10px;
-  text-align: center;
-}
-
-/*  transformaciones de imagenes y videos. */
-
-.proyec__video:hover,
-.proyec__img:hover {
-  transition: 3s;
-  transform: skew(5deg);
-  border: whitesmoke 2px solid;
-}
-
-/* ------------------------------------------- */
 .proyec__title {
   background-color: rgba(169, 169, 169, 0.527);
   color: rgba(80, 71, 71, 0.5);
-  text-align: center;
   font-size: 20px;
   border-radius: 15px;
   margin: 10px;
 }
-.proyec__descr {
-  text-align: center;
-  padding: 8px;
-}
-.proyec__text {
-  text-align: center;
-  padding: 20px 20px;
-}
-.proyecto-a-ejecutar {
-  padding-top: 10px;
-  text-align: center;
-}
 .enlace {
   color: tomato;
-  text-transform: uppercase;
   text-decoration: none;
+  text-transform: uppercase;
 }
-.volver {
-  display: flex;
-  justify-content: center;
-  margin: 10px;
-  text-align: center;
+
+/*  transformaciones de imagenes y videos. */
+#proyectos img:hover {
+  transform: scale(1.25);
+  transition: 3s;
 }
+#proyectos iframe:hover {
+  transition: 3s;
+  transform: skew(5deg);
+}
+
+/* ------------------------------------------- */
 
 /* Footer de la pagina */
 
-.footer {
+.footer-fondo {
   background: linear-gradient(to left, #a6b4b4f8, #2c7573f8);
 }
-.network__title {
-  color: azure;
-  font-size: 20px;
-  text-align: center;
-}
-.footer__list {
-  margin: 10px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-.footer__item {
+.footer-item {
   width: 60px;
   list-style: none;
-  text-align: center;
 }
 .fab:hover {
-  color: crimson;
+  color: tomato;
 }
 .fab {
-  color: azure;
+  color: white;
   font-size: 35px;
-}
-.footer__text {
-  color: azure;
-  font-size: 18px;
-  text-align: center;
 }

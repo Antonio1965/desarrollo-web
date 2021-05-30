@@ -1,8 +1,11 @@
 - Objetivos Generales.
-PROYECTO FINAL.-
-1.- Sube los avances que tengas de tu proyecto hasta el momento en el repositorio.
-2.- El trabajo en el repositorio del proyecto directamente en GitHub.
-3.- Utilizarás el Public URL para la presentación del mismo.
+  Aplicando BOOTSTRAP.
+
+1.- Se aplica bootstrap a todas las paginas , con responsive.
+2.- En la pagina principal se coloca carousel de bootstrap; se aplica keyframes al titulo de enlace a la pagina de carousel.
+3.- En la pagina de contactos se aplica form-control, form-group de bootstrap, se agrega botones de bootstrap.
+4.- Se aplica en las imagenes, transition, transform, thumbnail, hover, linear-gradient.
+5.- Se agraga Dropdowns a la pagina de cabecera de navegacion.
 
 
 

@@ -5,6 +5,7 @@
 .body {
   background: linear-gradient(to left top, #a3e9e9, #447976f8);
 }
+/* --Cabecera de la paginas-- */
 .navbar-nav {
   margin-left: auto;
 }
@@ -48,43 +49,20 @@ h2 {
   text-transform: uppercase;
   text-decoration: none;
 }
-.volver {
-  display: flex;
-  justify-content: center;
-  margin: 10px;
-  text-align: center;
-}
 
 /* Footer de la pagina */
 
 .footer-fondo {
   background: linear-gradient(to left, #a6b4b4f8, #2c7573f8);
 }
-.network__title {
-  color: azure;
-  font-size: 20px;
-  text-align: center;
-}
-.footer__list {
-  margin: 10px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-.footer__item {
+.footer-item {
   width: 60px;
   list-style: none;
-  text-align: center;
 }
 .fab:hover {
   color: tomato;
 }
 .fab {
-  color: azure;
+  color: white;
   font-size: 35px;
-}
-.footer__text {
-  color: azure;
-  font-size: 18px;
-  text-align: center;
 }
