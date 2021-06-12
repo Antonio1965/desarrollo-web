@@ -7,9 +7,7 @@
 }
 
 /* --Cabecera de la paginas-- */
-.navbar-nav {
-  margin-left: auto;
-}
+
 .navbar-brand img {
   padding-left: 10px;
   border-radius: 10px 30px / 30px 40px;
@@ -32,6 +30,19 @@
 
 /* -- Pagina principal-Carousel-- */
 
+.carousel-item {
+  height: 700px;
+  min-height: 500px;
+}
+.img_carousel {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.carousel-caption {
+  margin: 100px;
+}
 .container-text a {
   text-transform: uppercase;
   text-decoration: none;
@@ -121,16 +132,16 @@
   border-radius: 50%;
 }
 .fa-facebook {
-  color: #1877f2;
-  filter: drop-shadow(10px 10px 10px #1877f2);
+  color: #3b5998;
+  filter: drop-shadow(10px 10px 10px #3b5998);
 }
 .fa-yahoo {
-  color: rgb(91, 63, 245);
-  filter: drop-shadow(10px 10px 10px rgb(91, 63, 245));
+  color: #572364;
+  filter: drop-shadow(10px 10px 10px #572364);
 }
 .fa-linkedin {
-  color: rgb(20, 149, 255);
-  filter: drop-shadow(10px 10px 10px rgb(37, 153, 247));
+  color: #0e76a8;
+  filter: drop-shadow(10px 10px 10px #0e76a8);
 }
 .fa-github {
   color: black;
@@ -139,4 +150,7 @@
 .footer__text {
   color: azure;
   margin-top: 10px;
+}
+.footer hr {
+  margin: 0;
 }
